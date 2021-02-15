@@ -1,0 +1,309 @@
+body{
+  background: url(pic.png);
+   background-color: black;
+   background-repeat: repeat;
+    background-size: auto;
+}
+
+#quiz_frame{
+    background-image: url(pic.png);
+    background-repeat: no-repeat;
+  background-size: contain, cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    float: right;
+    /*margin: auto;*/
+    height: 600px;
+    width: 1000px;
+    /*border: solid 2px white;*/
+}
+
+#question{
+    height: 80px;
+    width: 1000px;
+}
+
+.hexa{
+    
+    top: 150px;
+    left: 120px;
+    position: relative;
+    margin: 38px;
+    float: left;
+    width:300px;
+    background:black;
+    height:70px;
+    color:#fff;
+    position:relative;
+   /* border-top:1px solid black;
+    border-bottom:1px solid black;*/
+  }
+  .hexa-inner{
+    
+    height:70px;
+    position:relative;
+    }
+  .hexa-inner:before{
+      
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50px;
+    background: black;
+    -webkit-transform: skew(-45deg, 0deg);
+    -moz-transform: skew(-45deg, 0deg);
+    -ms-transform: skew(-45deg, 0deg);
+    -o-transform: skew(-45deg, 0deg);
+    transform: skew(-45deg,0deg);
+  }
+  .hexa-inner:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 50%;
+    width: 50px;
+    background: black;
+    -webkit-transform: skew(-135deg, 0deg);
+    -moz-transform: skew(-135deg, 0deg);
+    -ms-transform: skew(-135deg, 0deg);
+    -o-transform: skew(-135deg, 0deg);
+    transform: skew(-135deg, 0deg);
+    
+  }
+  .left-arrow{
+   margin-left:-18px;
+   float:left;
+  }
+  .right-arrow{
+    transform:rotate(180deg);
+    float:right;
+    margin-right:-18px;
+   
+  }
+
+
+  .hexa {
+    transition-duration: 0.4s;
+  }
+  
+  .hexa:hover {
+    background-color: rgba(255, 196, 0, 0.787); /* Green */
+    color: white;
+  }
+
+  .hexa-inner left-arrow{
+    transition-duration: 0.4s;
+  }
+
+  .hexa-inner left-arrow:hover {
+    background-color: rgba(255, 196, 0, 0.787); /* Green */
+    color: white;
+  }
+
+
+  .hexa p{
+      text-align: center;
+      font-size: 20px;
+      font-weight: bolder;
+      color : white;
+    white-space:nowrap;
+    max-width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
+
+#title{
+    font-family: fantasy;
+    font-size: 25px;
+    height: 60px;
+    width: 205px;
+    margin: auto;
+    color :white;
+}
+
+  .hexa_q{
+    top: 150px;
+    left: 150px;
+    position: relative;
+    margin: 0%;
+    float: left;
+    width:700px;
+    background:black;
+    height:70px;
+    color:#fff;
+    position:relative;
+   /* border-top:1px solid black;
+    border-bottom:1px solid black;*/
+  }
+  .hexa_q-inner{
+    height:70px;
+    position:relative;
+    }
+  .hexa_q-inner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50px;
+    background: black;
+    -webkit-transform: skew(-45deg, 0deg);
+    -moz-transform: skew(-45deg, 0deg);
+    -ms-transform: skew(-45deg, 0deg);
+    -o-transform: skew(-45deg, 0deg);
+    transform: skew(-45deg,0deg);
+  }
+  .hexa_q-inner:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 50%;
+    width: 50px;
+    background: black;
+    -webkit-transform: skew(-135deg, 0deg);
+    -moz-transform: skew(-135deg, 0deg);
+    -ms-transform: skew(-135deg, 0deg);
+    -o-transform: skew(-135deg, 0deg);
+    transform: skew(-135deg, 0deg);
+  }
+  .left-arrow{
+   margin-left:-18px;
+   float:left;
+  }
+  .right-arrow{
+    transform:rotate(180deg);
+    float:right;
+    margin-right:-18px
+  }
+  .hexa_q p{
+    text-align: center;
+    color : white;
+    font-size: 20px;
+      font-weight: bolder;
+    white-space:nowrap;
+    max-width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
+ 
+
+#game{
+    background-image: url(pic.png);
+    display: flex;
+}
+
+#rule{
+    flex:1;
+    height: 598px;
+    width: 100px;
+    /*border: solid white 2px;*/
+}
+
+#quiz_frame:rule {
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-image: url(pic.png);
+    margin-right: 200px;
+}
+ 
+
+#close{
+    /*border: solid 2px white;*/
+    color: white;
+    height: 35px;
+    width: 30px;
+}
+
+
+.btns{
+
+ outline: none;
+ border-radius: 50%;
+ border-color: rgb(0, 195, 255);
+ height: 42px;
+ width: 68px; 
+}
+
+
+#ped{
+background-image: url(pp.png);
+background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+#callp{
+    background-image: url(callp.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+#pubp{
+    background-image: url(pubp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btns:hover {
+    background-color: #181818;
+    box-shadow: 0 16px 16px 0 rgba(20, 20, 20, 0.849),0 17px 50px 0 rgb(12, 12, 11);
+}
+#b{
+  margin-top: 100px;
+    height: 50px;
+}
+#earn{
+  padding: 5px;
+    text-align: center;
+    /*border: solid white 2px;*/
+    height: 500px;
+    width: 210px;
+}
+.money{
+  margin: 2px;
+    list-style-type:none;
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+#hun{
+color: rgba(255, 196, 0, 0.787);
+}
+
+#five{
+    color: rgba(255, 196, 0, 0.787);
+}
+
+#mil{
+    color: rgba(255, 196, 0, 0.787);
+}
+
+#endBtn{
+  margin-top: 20px;
+  color: black;
+
+ outline: none;
+ border-radius: 50%;
+ border-color: rgb(0, 195, 255);
+ height: 42px;
+ width: 70px; 
+ color : black;
+ font-size: 12px;
+ font-weight: bolder;
+ white-space:nowrap;
+ max-width:100%;
+ overflow:hidden;
+ text-overflow:ellipsis;
+}
+
+#endBtn:hover {
+  color: wheat;
+  background-color: #380202;
+  box-shadow: 0 16px 16px 0 rgba(121, 4, 4, 0.849),0 17px 50px 0 rgb(12, 12, 11);
+}
